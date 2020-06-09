@@ -1,0 +1,82 @@
+.submit-container {
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+
+.submit-container-header {
+    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(25,64,255,1) 100%);
+    color: white;
+    width: 100%;
+    display: block;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-top-right-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.15); 
+}
+
+.submit-container-body {
+ 
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15); 
+}
+
+.submit-container-body > form > input {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.submit-container-body > form > button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    width: 16%;
+    
+}
+
+.submit-container-body > form > textarea {
+    display: block;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 200%;
+    font-family: Helvetica;
+}
+
+.select-button {
+    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(25,64,255,1) 100%);
+    color: white;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.select-button:hover {
+    color: white;
+}
+
+.add-ingredients {
+    display: grid;
+    width: 50%;
+    margin-left: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.add-ingredient {
+    display:flex;
+    justify-content: center;
+    width: 30%;
+    color: grey;
+
+    
+}

@@ -1,0 +1,48 @@
+.drinks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.drink-container-grid {
+    width: 80%;
+    background-color: white;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15); 
+}
+
+.response-container {
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(25,64,255,1) 100%);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.hidden {
+    display:none;
+}
+
+.button-left {
+    float: left;
+    width: 50%;
+}
+
+.button-right {
+    float: right;
+    width: 50%;
+    border-left: 1px solid rgb(209, 209, 209);
+}
+
+.button-container {
+    border-top: 1px solid rgb(209, 209, 209);
+}
+
